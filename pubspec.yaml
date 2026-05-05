@@ -1,0 +1,56 @@
+name: testingsomething
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  animate_do: ^2.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adding assets section for images
+  assets:
+    - assets/smartphone.png
+    - assets/smartwatch.png
+    - assets/4k_monitor.png
+    - assets/camera.png
+    - assets/digital_clock.png
+    - assets/earbuds.png
+    - assets/gaming_laptop.png
+    - assets/graphic_tablet.png
+    - assets/headphones.png
+    - assets/kettle.png
+    - assets/laptop.png
+    - assets/mechanical_keyboard.png
+    - assets/monitor_light.png
+    - assets/mouse.png
+    - assets/portable_hard_drive.png
+    - assets/security_camera.png
+    - assets/smart_ceiling_fan.png
+    - assets/smart_glasses.png
+    - assets/smart_speaker.png
+    - assets/smart_thermostat.png
+    - assets/speaker.png
+    - assets/tablet.png
+    - assets/tracker.png
+    - assets/tv.png
+    - assets/vr_headset.png
+    - assets/wifi_extender.png
+    - assets/wireless_charger.png
